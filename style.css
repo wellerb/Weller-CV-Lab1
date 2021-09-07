@@ -1,0 +1,25 @@
+#content{
+    background-color: rgba(250, 250, 250, 0.048);
+    color: rgb(0, 0, 0);
+}
+.photos{
+    width: 1200px;
+    margin: auto;
+    color: maroon;
+}  
+facts {
+    list-style-type: disc;
+}
+facts paragraphs{
+    list-style-type: circle;
+}
+
+a:link {color: blue}
+a:visited {color:blue} 
+a:hover {color: green}
+a:active {color:red}
+
+body{
+    margin: 40px 100px 120px 80px;
+    background-color: blanchedalmond;
+}
