@@ -1,6 +1,17 @@
 
 #content{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.factsheader{
+    border-bottom: 2px solid maroon;
+    color: maroon;
+    text-shadow: maroon;
+    text-size-adjust: 2px;
+}
+.facts{
+    font-size: 15px;
+    border-bottom: 2px solid maroon;
 }
 .photo-grid{
     width: auto;
