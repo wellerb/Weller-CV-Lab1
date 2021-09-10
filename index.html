@@ -1,4 +1,4 @@
-<html>
+<html lang = "en">
     <head>
     <title>Weller Lab1</title>
     <meta name="viewport" content="width-device-width, initial-scale=1">
@@ -14,31 +14,29 @@
     </head>
 
     <body>
-        <h1 class = "header"><center>The Boston College Factpage</center></h1>
-        <div class="photo-grid">
-            <center>
-                <img border="0" src=
-                "https://www.bc.edu/content/dam/bc1/offices/ouc/OUC%20photos/gasson.1000x667.jpg.transform/gallery-XL/image.jpg"> 
-                <img border = "0" src=
-                "https://www.bc.edu/content/dam/bc1/offices/ouc/OUC%20photos/eagle.1000x667.jpg.transform/gallery-medium/image.jpg"> 
-                <img border = "0" src=
-                "https://www.bc.edu/content/dam/bc1/offices/ouc/OUC%20photos/GarganHall1000x667.jpg.transform/gallery-medium/image.jpg"> 
-                <p style="clear: both;"></p>
-            </center>
-        </div>
-        <div class = "factsheader">
-            <center>
-            <h3> Facts about Boston College </h3>
-            </center>
-        </div>
-        <div id = "content" class = "facts">
-            <script script defer src="js/main.js"></script>
-        </div>
-        <p></p>
-        <button class = "button" 
-            id = "generate" type = "button">Click for a Random Fact about Boston College</button>
-        <div class = "description">
-            <p> </p>
+        <div class = "container">
+            <div class = "row">
+                <div class = "column">
+                    <h1>The Boston College</h1>
+                    <h1>Factpage</h1>
+                    <button class = "button-button-outline" id = "generate" type = "button">Click for a Random Fact about Boston College</button>
+                    <div id = "content" class = "facts">
+                        <div>
+                            <script id = "rcorners2" script defer src="js/main.js"></script>
+                        </div>
+                    </div>
+                </div>
+                <div class= "column2">
+                    <p class = "aligncenter">
+                        <img src=
+                        "https://www.bc.edu/content/dam/bc1/offices/ouc/OUC%20photos/gasson.1000x667.jpg.transform/gallery-XL/image.jpg" width = 650px;> 
+                        <p> </p>
+                        <img src=
+                        "https://www.bc.edu/content/dam/bc1/offices/ouc/OUC%20photos/eagle.1000x667.jpg.transform/gallery-medium/image.jpg" width = 650px;> 
+                        <a href = "https://www.bc.edu/content/bc-web/offices/office-of-university-communications/our-work/photography.html">See more BC images here</a>
+                    </p>
+                </div>
+            </div>
         </div>
         <div class = "links">  
             <a href = "https://www.bc.edu">Boston College Homepage</a>
