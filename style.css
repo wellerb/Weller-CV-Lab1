@@ -63,13 +63,14 @@ body{
 
 .button{
     display:inline-block;
-    padding: 1px;
-    border: 2px black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 1px black;
     margin: auto;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
-    background-color: whitesmoke;
+    background-color: silver;
 }
 .button:hover{
     color:maroon;
